@@ -4,22 +4,17 @@ import { Github, Linkedin, Twitter, Mail } from "lucide-react"
 const socialLinks = [
   {
     name: "GitHub",
-    href: "https://github.com",
+    href: "https://github.com/aria-na",
     icon: Github,
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/ariana-siddayao-1b90343b8/",
     icon: Linkedin,
   },
   {
-    name: "Twitter",
-    href: "https://twitter.com",
-    icon: Twitter,
-  },
-  {
     name: "Email",
-    href: "mailto:alex.chen@email.com",
+    href: "mailto:arianasiddayao@gmail.com",
     icon: Mail,
   },
 ]
@@ -35,10 +30,10 @@ export function Footer() {
               {"I'm always open to discussing new projects and opportunities."}
             </p>
             <a
-              href="mailto:alex.chen@email.com"
+              href="mailto:arianasiddayao@gmail.com"
               className="mt-2 inline-block text-sm text-primary hover:underline"
             >
-              alex.chen@email.com
+              arianasiddayao@gmail.com
             </a>
           </div>
           <div className="flex gap-4">
@@ -58,7 +53,7 @@ export function Footer() {
         </div>
         <Separator className="my-8" />
         <p className="text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Alex Chen. Built with Next.js and Tailwind CSS.
+          © {new Date().getFullYear()} Ariana Siddayao. Built with Next.js and Tailwind CSS.
         </p>
       </div>
     </footer>

@@ -3,20 +3,26 @@ import { Badge } from "@/components/ui/badge"
 import { GraduationCap } from "lucide-react"
 
 const education = {
-  degree: "Bachelor of Science in Computer Science",
-  school: "State University of Technology",
-  year: "Expected May 2026",
-  gpa: "3.8/4.0",
+  degree: "Bachelor of Science in Information Technology",
+  school: "St. Paul University Philippines",
+  year: "2023 - Present",
+  gpa: "1.48",
   courses: [
+    "Python Programming",
+    "Object-Oriented Programming",
     "Data Structures & Algorithms",
-    "Web Development",
-    "Database Systems",
-    "Software Engineering",
+    "Web System and Technologies",
+    "Advanced Database Systems",
+    "Rich Media Development",
+    "Application Development",
+    "Platform Technologies",
+    "Information Assurance and Security",
+    "Integrative and Programming Technologies",
     "Human-Computer Interaction",
-  ],
-  certifications: [
-    "AWS Cloud Practitioner",
-    "Meta Front-End Developer Certificate",
+    "Computer Network Systems",
+    "Game Development",
+    "Hybrid Mobile Application",
+    "Artificial Intelligence and Robotics",
   ],
 }
 
@@ -37,7 +43,7 @@ export function EducationSection() {
                   {education.school} • {education.year}
                 </CardDescription>
                 <p className="mt-1 text-sm font-medium text-primary">
-                  GPA: {education.gpa}
+                  Running GWA: {education.gpa}
                 </p>
               </div>
             </CardHeader>
@@ -54,22 +60,6 @@ export function EducationSection() {
                       className="rounded-full px-3 py-1 text-sm font-normal"
                     >
                       {course}
-                    </Badge>
-                  ))}
-                </div>
-              </div>
-              <div>
-                <h4 className="mb-3 text-sm font-medium uppercase tracking-wider text-muted-foreground">
-                  Certifications
-                </h4>
-                <div className="flex flex-wrap gap-2">
-                  {education.certifications.map((cert) => (
-                    <Badge
-                      key={cert}
-                      variant="outline"
-                      className="rounded-full px-3 py-1 text-sm font-normal"
-                    >
-                      {cert}
                     </Badge>
                   ))}
                 </div>

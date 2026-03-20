@@ -2,37 +2,17 @@ import { Badge } from "@/components/ui/badge"
 
 const experiences = [
   {
-    title: "Software Engineering Intern",
-    company: "TechStart Labs",
-    date: "Jun 2025 — Aug 2025",
+    title: "Full-Stack Developer (Co-Creator)",
+    company: "St. Paul University Philippines",
+    date: "Jan 2026 - Present",
     description: [
-      "Developed responsive UI components using React and TypeScript, improving user engagement by 25%",
-      "Collaborated with senior developers on a customer-facing dashboard that served 10,000+ daily users",
-      "Implemented automated testing with Jest and React Testing Library, achieving 85% code coverage",
+      "Co-developing the Student Behavioral Incidents Management System with Data Analytics, a tailored administrative platform for the Basic Education Unit.",
+      "Architecting a secure backend infrastructure using PHP and the Laravel framework, paired with a fully normalized MySQL database.",
+      "Designing and implementing interactive Data Analytics dashboards to visualize behavioral trends, empowering school administrators to make data-driven decisions.",
+      "Collaborating closely with my development partner and project stakeholders to gather requirements, iterate on UI/UX designs, and ensure the software meets institutional needs.",
+
     ],
-    skills: ["React", "TypeScript", "Jest"],
-  },
-  {
-    title: "Lead Developer",
-    company: "University Capstone Project",
-    date: "Jan 2025 — May 2025",
-    description: [
-      "Led a team of 4 students to build a full-stack course scheduling application for the CS department",
-      "Designed and implemented a PostgreSQL database schema to handle complex scheduling constraints",
-      "Built a RESTful API with Node.js and Express, integrating with the university's existing systems",
-    ],
-    skills: ["Next.js", "Node.js", "PostgreSQL"],
-  },
-  {
-    title: "Web Development Volunteer",
-    company: "Code for Community",
-    date: "Sep 2024 — Present",
-    description: [
-      "Volunteer developer for a local nonprofit, building and maintaining their donation platform",
-      "Migrated legacy PHP codebase to a modern React frontend, reducing page load times by 60%",
-      "Mentored 3 new volunteers on web development best practices and Git workflow",
-    ],
-    skills: ["React", "Tailwind CSS", "Git"],
+    skills: ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Data Analytics", "Team Collaboration"],
   },
 ]
 

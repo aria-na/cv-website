@@ -1,32 +1,29 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Github, ExternalLink } from "lucide-react"
+import { Github } from "lucide-react"
 
 const projects = [
   {
-    title: "TaskFlow",
+    title: "Capstone Project (Ongoing)",
     description:
-      "A collaborative task management app with real-time updates, drag-and-drop organization, and team workspaces. Built to help small teams stay organized and productive.",
-    tech: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
-    github: "https://github.com",
-    demo: "https://example.com",
+      "Our capstone project repository. This contains the full source code, project structure, and implementation details for DEVELOPMENT_BEU.",
+    tech: ["Capstone", "Git", "Collaboration"],
+    github: "https://github.com/TheaMarieM/DEVELOPMENT_BEU.git",
   },
   {
-    title: "DevBlog",
+    title: "Flutter Card Project",
     description:
-      "A modern blogging platform for developers featuring MDX support, syntax highlighting, and a custom CMS. Focused on performance and SEO optimization.",
-    tech: ["React", "Node.js", "MongoDB", "MDX"],
-    github: "https://github.com",
-    demo: "https://example.com",
+      "A simple Flutter card application focused on basic UI layout and component structuring in Flutter.",
+    tech: ["Flutter", "Dart", "UI"],
+    github: "https://github.com/aria-na/yana_flutter_project1.git",
   },
   {
-    title: "WeatherWise",
+    title: "Thoughts Website",
     description:
-      "A beautiful weather application with location-based forecasts, interactive maps, and severe weather alerts. Designed with accessibility in mind.",
-    tech: ["React", "OpenWeather API", "Mapbox", "Chart.js"],
-    github: "https://github.com",
-    demo: "https://example.com",
+      "A Laravel-based thoughts website, similar to a lightweight Twitter/Threads style posting platform.",
+    tech: ["Laravel", "PHP", "Web"],
+    github: "https://github.com/aria-na/siddayao_exam.git",
   },
 ]
 
@@ -62,16 +59,10 @@ export function ProjectsSection() {
                   ))}
                 </div>
                 <div className="flex gap-2">
-                  <Button variant="outline" size="sm" asChild className="flex-1">
+                  <Button variant="outline" size="sm" asChild className="w-full">
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Github className="mr-1.5 size-4" />
-                      Source
-                    </a>
-                  </Button>
-                  <Button size="sm" asChild className="flex-1">
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="mr-1.5 size-4" />
-                      Demo
+                      Repository
                     </a>
                   </Button>
                 </div>
