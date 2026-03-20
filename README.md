@@ -75,14 +75,14 @@ npm run start
 ## Documentation
 
 ### v0.dev Process Screenshot
-![v0.dev Process Screenshot](/docs/v0-1.png)
+![v0.dev Process Screenshot](public/docs/v0-1.png)
 
 ### v0.dev Prompt Screenshot
-![v0.dev Prompt Screenshot](/docs/v0-2.png)
+![v0.dev Prompt Screenshot](public/docs/v0-2.png)
 
 ### Dark Mode Screenshot
-![Dark Mode Screenshot](/docs/dark-mode.png)
+![Dark Mode Screenshot](public/docs/dark-mode.png)
 
 ### Light Mode Screenshot
-![Light Mode Screenshot](/docs/light-mode.png)
+![Light Mode Screenshot](public/docs/light-mode.png)
 
